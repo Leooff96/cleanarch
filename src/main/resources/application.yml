@@ -1,0 +1,31 @@
+micronaut:
+  application:
+    name: cleanarch
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/postgres
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: 'Postgres2023!'
+    dialect: POSTGRES
+
+jpa:
+  default:
+    properties:
+      hibernate:
+        bytecode:
+          provider: none
+        hbm2ddl:
+          auto: validate
+        show_sql: false
+
+flyway:
+  datasources:
+    default:
+      enabled: true

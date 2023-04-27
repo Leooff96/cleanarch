@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.cleanarch
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, aws-v2-sdk, gradle, http-client, junit, kotlin, kotlin-application, kotlin-build, logback, micronaut-aop, micronaut-build, micronaut-test-rest-assured, netty-server, openapi, readme, serialization-jackson, shade, testcontainers, yaml]
